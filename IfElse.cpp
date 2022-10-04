@@ -4,7 +4,9 @@ using namespace std;
 
 int main()
 {
-  int age = 18;
+  int age;
+  cout<<"Enter Age: ";
+  cin>>age;
   if (age >= 18){
     cout<<"You are allowed to enter";
   }else{
